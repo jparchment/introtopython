@@ -1,9 +1,9 @@
 check50:
   checks:
-    Hooray!:
-      - run: python3 hello.py # run python3 hello.py
-        stdout: Happy World # expect Hello, world! in stdout
-        exit: 0 # expect program to exit with exitcode 
+    #Hooray!:
+     # - run: python3 hello.py # run python3 hello.py
+      #  stdout: Happy World # expect Hello, world! in stdout
+       # exit: 0 # expect program to exit with exitcode 
     foo:
       - run: python3 bye.py # run python3 foo.py
         stdout: see ya later # expect see ya later in stdout
