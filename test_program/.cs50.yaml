@@ -1,5 +1,5 @@
 check50:
-  files:
+  #files:
  # - !include "hello.py"
   checks:
     happy world:
