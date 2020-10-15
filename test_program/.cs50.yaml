@@ -1,7 +1,7 @@
 check50:
- # files:
- # - !include "hello.py"
-#  - !include "bye.py"
+  files:
+  - !exclude "hello.py"
+  - !exclude "bye.py"
   checks:
     Hooray!:
       - run: python3 hello.py # run python3 hello.py
