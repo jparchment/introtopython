@@ -1,8 +1,8 @@
 check50:
   files:
-  - !include "hello.py"
+ # - !include "hello.py"
   checks:
-    hello world:
+    happy world:
       - run: python3 hello.py # run python3 hello.py
         stdout: Happy World # expect Hello, world! in stdout
         exit: 0 # expect program to exit with exitcode 
