@@ -3,7 +3,7 @@ check50:
   - !include "hello.py"
   - !include "bye.py"
   checks:
-    happy world:
+    Hooray!:
       - run: python3 hello.py # run python3 hello.py
         stdout: Happy World # expect Hello, world! in stdout
         exit: 0 # expect program to exit with exitcode 
