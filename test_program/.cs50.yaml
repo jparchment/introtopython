@@ -1,12 +1,12 @@
 check50:
   files:
-  - !include "hello.py"
+ # - !include "hello.py"
   - !include "bye.py"
   checks:
-    Hooray!:
-      - run: python3 hello.py # run python3 hello.py
-        stdout: Happy World # expect Hello, world! in stdout
-        exit: 0 # expect program to exit with exitcode 
+   # Hooray!:
+     # - run: python3 hello.py # run python3 hello.py
+       # stdout: Happy World # expect Hello, world! in stdout
+       # exit: 0 # expect program to exit with exitcode 
     foo:
       - run: python3 bye.py # run python3 foo.py
         #stdin: baz # insert baz into stdin
